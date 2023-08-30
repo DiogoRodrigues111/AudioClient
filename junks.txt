@@ -1,0 +1,20 @@
+// Gera um tom simples
+            double frequency = 440.0; // Frequência do tom em Hz (Afinação A)
+            double phase = 0.0; // Fase inicial
+
+            while (true)
+            {
+                float[] buffer = new float[framesPerBuffer];
+                for (int i = 0; i < framesPerBuffer; i++)
+                {
+                    buffer[i] = (float)(0.5 * Math.Sin(2 * Math.PI * frequency * phase));
+                    phase += 1.0 / sampleRate;
+                }
+
+                //PortAudioSharp.WriteStream(stream, buffer, framesPerBuffer);
+
+                // Para o stream de áudio e libera recursos
+                sStream.Stop();
+                sStream.Close();
+                PortAudio.Terminate();
+            }

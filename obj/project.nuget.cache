@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZTCbNwJ00CYcNNvS88jQu9ymkjSsZxCHvXxBDAArNNTj3vy8Ud7K5vQcUkeup7glDGzC1T/dHI7gMGuNrTGC9A==",
+  "success": true,
+  "projectFilePath": "/home/diogorroessler/dev/CSharp/AudioClient/AudioClient.csproj",
+  "expectedPackageFiles": [
+    "/home/diogorroessler/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.4/microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "/home/diogorroessler/.nuget/packages/nativelibrarymanager/1.0.23/nativelibrarymanager.1.0.23.nupkg.sha512",
+    "/home/diogorroessler/.nuget/packages/portaudiosharp/0.3.0/portaudiosharp.0.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
